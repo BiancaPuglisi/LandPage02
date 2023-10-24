@@ -1,0 +1,174 @@
+
+header {
+    background-color: #FC525A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.header-logo{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Rock Salt", cursive;
+
+}
+
+.header-links a{
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+
+
+.main {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.site {
+    text-transform: uppercase;
+    align-items: center;
+}
+
+h1, p, button {
+    margin-left: 6rem;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #FC525A;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    border: 2px solid aliceblue;
+    width: 6rem;
+    height: 3rem;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid #FC525A;
+}
+
+.img {
+    display: flex;
+    margin-left: 10rem;
+    align-items: center;
+}
+
+.info{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.imgs {
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.image{
+    height: 10rem;
+    margin: 3rem;
+}
+
+.random-info{
+    padding: 0 80px 80px;
+}
+
+.random-info .imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.random-info .imgs div{
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.quotation{
+    background-color: #FC525A;
+    text-align: center;
+    padding: 8rem;
+}
+
+.quote{
+    text-transform: uppercase;
+    line-height: 1.5rem;
+}
+
+.author{
+    text-align:right ;
+    margin-right: 20rem;
+}
+
+.signup{
+    margin: 2rem;
+}
+
+.button02:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid #FC525A;
+}
+
+.signup .signup-action{ 
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px 80px;
+    display: flex;
+    border-radius: 7px;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+
+.signup-action button {
+        border: 2px solid aliceblue;
+        width: 6rem;
+        height: 3rem;
+}
+
+.signup-action-info{
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.signup-action-info p{
+    text-transform: initial;
+    margin: 0 0;
+}
+
+.btn{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 0 0;
+}
+
+.btn:hover{
+ background: black;}
