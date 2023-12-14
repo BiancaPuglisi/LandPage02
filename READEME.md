@@ -1,1 +1,0 @@
-Project made by Bianca S N Ribeiro.
